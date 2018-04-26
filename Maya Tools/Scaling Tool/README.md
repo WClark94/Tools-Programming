@@ -22,3 +22,17 @@ Freeze Transforms button implemented;
 WIP:
 Deployment,
 GUI,
+
+
+Scale Helper Tool
+
+Dsiplay Current Units of Session
+Create  reference Cube
+Delete the reference Cube
+Delete History Button
+Freeze transforms Button
+
+To deploy:
+Download userSetup.py and put into maya/scripts
+  - open with IDLE and change the directory to the foder where you put your tools (it is bets to create a folder and put the tool scripts inside it)
+  put OptionsWindowbaseClass.py into maya/scripts
