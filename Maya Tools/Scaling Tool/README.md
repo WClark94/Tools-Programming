@@ -23,3 +23,9 @@ To deploy:
 Download userSetup.py and put into maya/scripts
   - open with IDLE and change the directory to the foder where you put your tools (it is bets to create a folder and put the tool scripts inside it)
   put OptionsWindowbaseClass.py into maya/scripts
+  
+  
+  
+Updates:
+Reference Cube is made to look like a plane,
+Reference Cube is not selectable,
