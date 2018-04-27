@@ -6,8 +6,8 @@ class scaleHelperTool(OptionsWindowBaseClass.OptionsWindow):
     def __init__(self):
         OptionsWindowBaseClass.OptionsWindow.__init__(self)
         self.title="Scale Helper Tool"
-        self.actionName="Create Reference Cube"
-        self.applyName="Delete Reference Cube"
+        self.actionName="Create Scale Ruler"
+        self.applyName="Delete Scale Ruler"
         self.freezeName="Freeze Transforms"
         self.historyName="Delete History"
         
@@ -26,8 +26,9 @@ class scaleHelperTool(OptionsWindowBaseClass.OptionsWindow):
         
         
     def actionCmd(self,*args):
-        mc.polyCube(w=100,h=100,d=0.0001,sx=100,sy=100, n="cubey")
+        mc.polyPlane(w=100,h=100,sx=100,sy=100, n="cubey")
         mc.move(0,0,1)
+        mc.rotate(90,0,0)
         mc.toggle(st=True,te=True)
         
     def applyBtnCmd(self,*args):
