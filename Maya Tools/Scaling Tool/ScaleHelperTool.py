@@ -27,6 +27,7 @@ class scaleHelperTool(OptionsWindowBaseClass.OptionsWindow):
         
     def actionCmd(self,*args):
         mc.polyCube(w=100,h=100,d=0.0001,sx=100,sy=100, n="cubey")
+        mc.move(0,0,1)
         mc.toggle(st=True,te=True)
         
     def applyBtnCmd(self,*args):
