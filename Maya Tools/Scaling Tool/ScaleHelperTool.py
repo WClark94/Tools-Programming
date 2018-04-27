@@ -26,10 +26,10 @@ class scaleHelperTool(OptionsWindowBaseClass.OptionsWindow):
         
         
     def actionCmd(self,*args):
-        cubey = mc.polyCube(w=100,h=100,sx=100,sy=100,sz=100)
+        mc.polyCube(w=100,h=100,sx=100,sy=100,sz=100, n="cubey")
         
     def applyBtnCmd(self,*args):
-        mc.delete(cubey)
+        mc.delete("cubey")
         
     def freezeBtnCmd(self,*args):
         selection = mc.ls(sl=1)
