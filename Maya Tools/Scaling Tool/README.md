@@ -36,3 +36,4 @@ Updates:
 
 1. Reference Cube is now a plane
 2. Reference Cube is now renamed to Scale Ruler
+3. Scale Ruler is unselectable
