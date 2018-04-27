@@ -27,9 +27,12 @@ Download userSetup.py and put into maya/scripts
   
   
 Updates:
-Reference Cube is made to look like a plane,
-Reference Cube is not selectable,
-Reference Cube is moved along the Z axis by one unit,
 
-Reference Cube is now a plane
-Reference Cube is now renamed to Scale Ruler
+~~Reference Cube is made to look like a plane,~~
+
+~~Reference Cube is not selectable,~~
+
+~~Reference Cube is moved along the Z axis by one unit,~~
+
+1. Reference Cube is now a plane
+2. Reference Cube is now renamed to Scale Ruler
