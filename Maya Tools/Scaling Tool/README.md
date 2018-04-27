@@ -29,3 +29,4 @@ Download userSetup.py and put into maya/scripts
 Updates:
 Reference Cube is made to look like a plane,
 Reference Cube is not selectable,
+Reference Cube is moved along the Z axis by one unit,
